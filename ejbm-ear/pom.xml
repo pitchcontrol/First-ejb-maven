@@ -36,6 +36,13 @@
         <configuration>
             <version>6</version>
             <defaultLibBundleDir>lib</defaultLibBundleDir>
+            <modules>
+                <webModule>
+                   <groupId>com.mycompany</groupId>
+                   <artifactId>ejbm-web</artifactId>
+                   <contextRoot>/</contextRoot>
+                </webModule>
+            </modules>
         </configuration>
       </plugin>
     </plugins>
