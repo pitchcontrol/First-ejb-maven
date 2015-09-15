@@ -12,6 +12,10 @@
         <servlet-name>Time</servlet-name>
         <url-pattern>/currenttime</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Time</servlet-name>
+        <url-pattern>/time/current</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
