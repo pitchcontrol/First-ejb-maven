@@ -18,7 +18,7 @@ import javax.ejb.Stateless;
 public class CurrentTime{
 
      public String GetTime(){
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
         Date date = new Date();
         return dateFormat.format(date);
     }
